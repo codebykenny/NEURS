@@ -27,6 +27,8 @@
 		9F8C9CA818C93E5B007C82BC /* MySidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9CA718C93E5B007C82BC /* MySidePanelController.m */; };
 		9F8C9CAB18C93F93007C82BC /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9CAA18C93F93007C82BC /* CenterViewController.m */; };
 		9F8C9CAE18C94576007C82BC /* NeursLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C9CAD18C94576007C82BC /* NeursLogo@2x.png */; };
+		9F9A1B9618CB6D7B0098DF45 /* ReferralDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A1B9518CB6D7B0098DF45 /* ReferralDescriptionViewController.m */; };
+		9F9A1B9A18CB70EC0098DF45 /* ReferralObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A1B9918CB70EC0098DF45 /* ReferralObject.m */; };
 		9FCACB2218C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB1F18C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m */; };
 		9FCACB2318C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB2118C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		9FCACB2518C94E28004F3043 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB2418C94E28004F3043 /* Login.png */; };
@@ -82,6 +84,10 @@
 		9F8C9CA918C93F93007C82BC /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
 		9F8C9CAA18C93F93007C82BC /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
 		9F8C9CAD18C94576007C82BC /* NeursLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NeursLogo@2x.png"; sourceTree = "<group>"; };
+		9F9A1B9418CB6D7B0098DF45 /* ReferralDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferralDescriptionViewController.h; sourceTree = "<group>"; };
+		9F9A1B9518CB6D7B0098DF45 /* ReferralDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferralDescriptionViewController.m; sourceTree = "<group>"; };
+		9F9A1B9818CB70EC0098DF45 /* ReferralObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferralObject.h; sourceTree = "<group>"; };
+		9F9A1B9918CB70EC0098DF45 /* ReferralObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferralObject.m; sourceTree = "<group>"; };
 		9FCACB1E18C94CC2004F3043 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		9FCACB1F18C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		9FCACB2018C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
@@ -159,6 +165,7 @@
 		9F8C9C6D18C93BED007C82BC /* Neurs */ = {
 			isa = PBXGroup;
 			children = (
+				9F9A1B9718CB6DCB0098DF45 /* Model */,
 				9FCACB3D18CA6E23004F3043 /* View */,
 				9F8C9CAC18C93F97007C82BC /* ViewControllers */,
 				9F8C9C7618C93BED007C82BC /* AppDelegate.h */,
@@ -245,8 +252,19 @@
 				9FCACB2718CA0BBD004F3043 /* DashboardViewController.m */,
 				9FCACB3A18CA6BA5004F3043 /* ReferedFlowLayout.h */,
 				9FCACB3B18CA6BA5004F3043 /* ReferedFlowLayout.m */,
+				9F9A1B9418CB6D7B0098DF45 /* ReferralDescriptionViewController.h */,
+				9F9A1B9518CB6D7B0098DF45 /* ReferralDescriptionViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F9A1B9718CB6DCB0098DF45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F9A1B9818CB70EC0098DF45 /* ReferralObject.h */,
+				9F9A1B9918CB70EC0098DF45 /* ReferralObject.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		9FCACB3D18CA6E23004F3043 /* View */ = {
@@ -375,6 +393,8 @@
 				9FCACB2318C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				9FCACB2818CA0BBD004F3043 /* DashboardViewController.m in Sources */,
 				9F8C9CA418C93E0C007C82BC /* JASidePanelController.m in Sources */,
+				9F9A1B9A18CB70EC0098DF45 /* ReferralObject.m in Sources */,
+				9F9A1B9618CB6D7B0098DF45 /* ReferralDescriptionViewController.m in Sources */,
 				9F8C9C7418C93BED007C82BC /* main.m in Sources */,
 				9F8C9CA818C93E5B007C82BC /* MySidePanelController.m in Sources */,
 				9F8C9CAB18C93F93007C82BC /* CenterViewController.m in Sources */,

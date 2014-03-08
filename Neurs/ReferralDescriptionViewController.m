@@ -1,21 +1,18 @@
 //
-//  DashboardViewController.m
+//  ReferralDescriptionViewController.m
 //  Neurs
 //
-//  Created by Kenneth Hernandez on 3/7/14.
+//  Created by Kenneth Hernandez on 3/8/14.
 //  Copyright (c) 2014 Kenneth Hernandez. All rights reserved.
 //
 
-#import "DashboardViewController.h"
-#import "ReferedFlowLayout.h"
-#import "ReferredCell.h"
+#import "ReferralDescriptionViewController.h"
 
-@interface DashboardViewController ()
+@interface ReferralDescriptionViewController ()
 
 @end
-static NSMutableArray *array;
 
-@implementation DashboardViewController
+@implementation ReferralDescriptionViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,18 +27,7 @@ static NSMutableArray *array;
 {
     [super viewDidLoad];
     [self drawView];
-    self.collectionView.backgroundColor = [UIColor clearColor];
-    
-    self.collectionView.dataSource = self;
-    self.collectionView.delegate = self;
-    
-    [self.collectionView registerNib:[UINib nibWithNibName:@"CatCell" bundle:nil] forCellWithReuseIdentifier:@"CELL"];
-    if(array == nil)
-        array = [[NSMutableArray alloc] init];
-    
-    array = [NSMutableArray arrayWithObjects:@"Kenneth", @"Pedro", @"Kevin", @"Franc", @"Lazaro",@"Michael", @"Jessica",@"Nicole", nil];
-    
-    
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,7 +56,7 @@ static NSMutableArray *array;
                                                                        NSForegroundColorAttributeName:  [UIColor whiteColor],
                                                                        NSFontAttributeName: [UIFont fontWithName:@"Avenir Heavy" size:20.0f]
                                                                        }];
-  
+    
     [[UIBarButtonItem appearance] setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
       [UIFont fontWithName:@"HelveticaNeue-Thin" size:20.0],
@@ -78,40 +64,9 @@ static NSMutableArray *array;
       nil]
                                                 forState:UIControlStateNormal];
     
-    self.navigationItem.hidesBackButton = TRUE;
-    
 
     
 }
-
-#pragma mark - UICollectionViewDataSource
-
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
-{
-    return 1;
-}
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView
-     numberOfItemsInSection:(NSInteger)section
-{
-    return 8;
-}
-
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
-                  cellForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    ReferredCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CELL" forIndexPath:indexPath];
-    cell.label.text = [NSString stringWithFormat:@"%@",array[indexPath.row]];
-    [cell.layer setCornerRadius:8.0f];
-    [cell.layer setMasksToBounds:YES];
-    [cell.layer setBorderWidth:0.0f];
-    return cell;
-}
-
-
-#pragma mark - View Rotation
-
-
 
 
 @end

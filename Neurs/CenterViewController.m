@@ -52,8 +52,7 @@ static NSMutableData *webData;
     
     UIImage *logo = [UIImage imageNamed:@"NeursLogo.png"];
     UIImageView *logoView = [[UIImageView alloc] initWithImage:logo];
-    logoView.frame = CGRectMake(0,0,30,35);
-//    logoView.frame.size.width = 30;
+    logoView.frame = CGRectMake(0,0,150,35);
     self.navigationItem.titleView = logoView;
     
     self.navigationItem.leftBarButtonItem.tintColor = [UIColor whiteColor];
@@ -67,7 +66,7 @@ static NSMutableData *webData;
     
     NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
     
-    NSURL *url = [NSURL URLWithString:@"https://en.neurs.com/account/login"];
+    NSURL *url = [NSURL URLWithString:@"http://en.neursinc.com/account/login"];
 
     
     NSMutableURLRequest *theRequest = [NSMutableURLRequest requestWithURL:url];
@@ -118,6 +117,7 @@ static NSMutableData *webData;
         // wrong login
 //        greetingLabel.hidden = NO;
         NSLog(@"Correct!");
+        [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"DashboardViewController"] animated:YES];
     }
     
 

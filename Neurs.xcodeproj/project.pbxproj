@@ -26,10 +26,20 @@
 		9F8C9CA518C93E0C007C82BC /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9CA318C93E0C007C82BC /* UIViewController+JASidePanel.m */; };
 		9F8C9CA818C93E5B007C82BC /* MySidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9CA718C93E5B007C82BC /* MySidePanelController.m */; };
 		9F8C9CAB18C93F93007C82BC /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9CAA18C93F93007C82BC /* CenterViewController.m */; };
-		9F8C9CAE18C94576007C82BC /* NeursLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C9CAD18C94576007C82BC /* NeursLogo.png */; };
+		9F8C9CAE18C94576007C82BC /* NeursLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C9CAD18C94576007C82BC /* NeursLogo@2x.png */; };
 		9FCACB2218C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB1F18C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m */; };
 		9FCACB2318C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB2118C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		9FCACB2518C94E28004F3043 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB2418C94E28004F3043 /* Login.png */; };
+		9FCACB2818CA0BBD004F3043 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB2718CA0BBD004F3043 /* DashboardViewController.m */; };
+		9FCACB2A18CA5A20004F3043 /* Dashboard_stats_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB2918CA5A20004F3043 /* Dashboard_stats_bg.png */; };
+		9FCACB2C18CA5B6E004F3043 /* check26.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB2B18CA5B6E004F3043 /* check26.png */; };
+		9FCACB3318CA5C4C004F3043 /* clock38.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB3218CA5C4C004F3043 /* clock38.png */; };
+		9FCACB3518CA5DA0004F3043 /* pencil in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB3418CA5DA0004F3043 /* pencil */; };
+		9FCACB3718CA62C7004F3043 /* available.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB3618CA62C7004F3043 /* available.png */; };
+		9FCACB3C18CA6BA5004F3043 /* ReferedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB3B18CA6BA5004F3043 /* ReferedFlowLayout.m */; };
+		9FCACB4018CA6E84004F3043 /* ReferredCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCACB3F18CA6E84004F3043 /* ReferredCell.m */; };
+		9FCACB4418CA7781004F3043 /* CatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB4318CA7781004F3043 /* CatCell.xib */; };
+		9FCACB4618CA8809004F3043 /* Dude@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCACB4518CA8809004F3043 /* Dude@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,12 +81,25 @@
 		9F8C9CA718C93E5B007C82BC /* MySidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySidePanelController.m; sourceTree = "<group>"; };
 		9F8C9CA918C93F93007C82BC /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
 		9F8C9CAA18C93F93007C82BC /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
-		9F8C9CAD18C94576007C82BC /* NeursLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeursLogo.png; sourceTree = "<group>"; };
+		9F8C9CAD18C94576007C82BC /* NeursLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NeursLogo@2x.png"; sourceTree = "<group>"; };
 		9FCACB1E18C94CC2004F3043 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		9FCACB1F18C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		9FCACB2018C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		9FCACB2118C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		9FCACB2418C94E28004F3043 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		9FCACB2618CA0BBD004F3043 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		9FCACB2718CA0BBD004F3043 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		9FCACB2918CA5A20004F3043 /* Dashboard_stats_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dashboard_stats_bg.png; sourceTree = "<group>"; };
+		9FCACB2B18CA5B6E004F3043 /* check26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check26.png; sourceTree = "<group>"; };
+		9FCACB3218CA5C4C004F3043 /* clock38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock38.png; sourceTree = "<group>"; };
+		9FCACB3418CA5DA0004F3043 /* pencil */ = {isa = PBXFileReference; lastKnownFileType = file; path = pencil; sourceTree = "<group>"; };
+		9FCACB3618CA62C7004F3043 /* available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = available.png; sourceTree = "<group>"; };
+		9FCACB3A18CA6BA5004F3043 /* ReferedFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferedFlowLayout.h; sourceTree = "<group>"; };
+		9FCACB3B18CA6BA5004F3043 /* ReferedFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferedFlowLayout.m; sourceTree = "<group>"; };
+		9FCACB3E18CA6E84004F3043 /* ReferredCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferredCell.h; sourceTree = "<group>"; };
+		9FCACB3F18CA6E84004F3043 /* ReferredCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferredCell.m; sourceTree = "<group>"; };
+		9FCACB4318CA7781004F3043 /* CatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatCell.xib; sourceTree = "<group>"; };
+		9FCACB4518CA8809004F3043 /* Dude@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dude@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +159,7 @@
 		9F8C9C6D18C93BED007C82BC /* Neurs */ = {
 			isa = PBXGroup;
 			children = (
+				9FCACB3D18CA6E23004F3043 /* View */,
 				9F8C9CAC18C93F97007C82BC /* ViewControllers */,
 				9F8C9C7618C93BED007C82BC /* AppDelegate.h */,
 				9F8C9C7718C93BED007C82BC /* AppDelegate.m */,
@@ -180,9 +204,15 @@
 		9F8C9C9C18C93CD8007C82BC /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				9FCACB4518CA8809004F3043 /* Dude@2x.png */,
+				9FCACB3618CA62C7004F3043 /* available.png */,
+				9FCACB3418CA5DA0004F3043 /* pencil */,
+				9FCACB3218CA5C4C004F3043 /* clock38.png */,
+				9FCACB2B18CA5B6E004F3043 /* check26.png */,
+				9FCACB2918CA5A20004F3043 /* Dashboard_stats_bg.png */,
 				9FCACB2418C94E28004F3043 /* Login.png */,
 				9F8C9C9D18C93CE4007C82BC /* NeursBG.png */,
-				9F8C9CAD18C94576007C82BC /* NeursLogo.png */,
+				9F8C9CAD18C94576007C82BC /* NeursLogo@2x.png */,
 			);
 			name = Pictures;
 			sourceTree = "<group>";
@@ -211,8 +241,22 @@
 				9F8C9CA718C93E5B007C82BC /* MySidePanelController.m */,
 				9F8C9CA918C93F93007C82BC /* CenterViewController.h */,
 				9F8C9CAA18C93F93007C82BC /* CenterViewController.m */,
+				9FCACB2618CA0BBD004F3043 /* DashboardViewController.h */,
+				9FCACB2718CA0BBD004F3043 /* DashboardViewController.m */,
+				9FCACB3A18CA6BA5004F3043 /* ReferedFlowLayout.h */,
+				9FCACB3B18CA6BA5004F3043 /* ReferedFlowLayout.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FCACB3D18CA6E23004F3043 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FCACB3E18CA6E84004F3043 /* ReferredCell.h */,
+				9FCACB3F18CA6E84004F3043 /* ReferredCell.m */,
+				9FCACB4318CA7781004F3043 /* CatCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,11 +335,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8C9CAE18C94576007C82BC /* NeursLogo.png in Resources */,
+				9FCACB2A18CA5A20004F3043 /* Dashboard_stats_bg.png in Resources */,
+				9F8C9CAE18C94576007C82BC /* NeursLogo@2x.png in Resources */,
 				9F8C9C9E18C93CE4007C82BC /* NeursBG.png in Resources */,
+				9FCACB3718CA62C7004F3043 /* available.png in Resources */,
 				9F8C9C8018C93BED007C82BC /* Images.xcassets in Resources */,
+				9FCACB2C18CA5B6E004F3043 /* check26.png in Resources */,
+				9FCACB4618CA8809004F3043 /* Dude@2x.png in Resources */,
+				9FCACB3518CA5DA0004F3043 /* pencil in Resources */,
 				9F8C9C7218C93BED007C82BC /* InfoPlist.strings in Resources */,
+				9FCACB4418CA7781004F3043 /* CatCell.xib in Resources */,
 				9F8C9C7B18C93BED007C82BC /* Main.storyboard in Resources */,
+				9FCACB3318CA5C4C004F3043 /* clock38.png in Resources */,
 				9FCACB2518C94E28004F3043 /* Login.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,8 +369,11 @@
 				9F8C9CA518C93E0C007C82BC /* UIViewController+JASidePanel.m in Sources */,
 				9FCACB2218C94CC2004F3043 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				9F8C9C7E18C93BED007C82BC /* LeftViewController.m in Sources */,
+				9FCACB3C18CA6BA5004F3043 /* ReferedFlowLayout.m in Sources */,
+				9FCACB4018CA6E84004F3043 /* ReferredCell.m in Sources */,
 				9F8C9C7818C93BED007C82BC /* AppDelegate.m in Sources */,
 				9FCACB2318C94CC2004F3043 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				9FCACB2818CA0BBD004F3043 /* DashboardViewController.m in Sources */,
 				9F8C9CA418C93E0C007C82BC /* JASidePanelController.m in Sources */,
 				9F8C9C7418C93BED007C82BC /* main.m in Sources */,
 				9F8C9CA818C93E5B007C82BC /* MySidePanelController.m in Sources */,
